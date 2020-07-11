@@ -17,6 +17,10 @@ body {
     margin-top: 2%;
 }
 
+.blue-problem {
+    position: relative;
+}
+
 #nav-bar {
     display: flex;
     margin-left: 5%;
@@ -78,7 +82,7 @@ a:hover {
     margin-left: 5%;
 }
 
-.section1 span {
+.section1-span {
     margin-top: 4.8rem;
     margin-left: 1rem;
 }
@@ -138,11 +142,11 @@ a:hover {
 
 #blue {
     position: absolute;
-    left: 52rem;
-    top: 14rem;
+    left: 20%;
+    top: 28%;
     background-color: rgb(87, 118, 204);
-    height: 22rem;
-    width: 31rem;
+    height: 75%;
+    width: 80%;
     z-index: -1;
     border-bottom-left-radius: 10rem;
     overflow: hidden;
@@ -775,14 +779,14 @@ em {
     top: 15px;
 }
 
-@media only screen and (min-width:1450px) {
+@media only screen and (min-width:1400px) {
     #blue {
         position: absolute;
-        left: 60rem;
-        top: 14rem;
+        left: 20%;
+        top: 29%;
         background-color: rgb(87, 118, 204);
-        height: 22rem;
-        width: 33rem;
+        height: 75%;
+        width: 80%;
         z-index: -1;
         border-bottom-left-radius: 10rem;
         overflow: hidden;
@@ -797,12 +801,16 @@ em {
     #nav-bar {
         margin-left: auto;
     }
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
     #blue {
         position: absolute;
         left: 16vw;
-        top: 13%;
+        top: 50%;
         background-color: rgb(87, 118, 204);
-        height: 24%;
+        height: 50%;
         width: 78%;
         z-index: -1;
         border-bottom-left-radius: 38%;
@@ -814,13 +822,13 @@ em {
         flex-direction: column-reverse;
         margin-top: 20%;
         margin-left: auto;
+        margin-right: auto;
         justify-content: center;
     }
     .section1 img {
-        align-self: center;
         width: 100vw;
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: auto;
+        margin-left: auto;
         padding: 0
     }
     div {
@@ -849,8 +857,8 @@ em {
     }
     /*----------------------------section2---------------*/
     .section2 {
-        margin-top: 10%;
-        margin-left: 5%;
+        margin: 10% auto;
+        position: relative;
     }
     .span1-section2 {
         text-align: center;
@@ -973,8 +981,9 @@ em {
     }
     .simple-con {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 4em;
+        text-align: center;
     }
     .simple-con button {
         background-color: rgb(87, 118, 204);
@@ -985,20 +994,27 @@ em {
         border-radius: 5px;
         padding-left: 5px;
         width: 7rem;
+        text-align: center;
     }
     .simple-span {
         margin-top: 4rem;
-        margin-left: 8em;
+        margin-left: auto;
+        margin-right: auto;
     }
     .simple-con img {
-        margin-left: 3em;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw
     }
     .simple-con p~p {
-        width: 26em;
+        text-align: center;
+        width: 100vw;
         color: lightslategrey;
         line-height: 1.5em;
     }
     .simple-con :first-child {
+        text-align: center;
         font-weight: bolder;
         font-size: x-large;
         margin-bottom: 1em;
@@ -1006,8 +1022,9 @@ em {
     }
     .speedy-con {
         display: none;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 4em;
+        text-align: center;
     }
     .speedy-con button {
         background-color: rgb(87, 118, 204);
@@ -1018,20 +1035,26 @@ em {
         border-radius: 5px;
         padding-left: 5px;
         width: 7rem;
+        text-align: center;
     }
     .speedy-span {
         margin-top: 4rem;
-        margin-left: 10em;
+        margin-left: auto;
+        margin-right: auto;
     }
     .speedy-con img {
-        margin-left: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
     }
     .speedy-con p~p {
-        width: 26em;
+        text-align: center;
+        width: 100vw;
         color: lightslategrey;
         line-height: 1.5em;
     }
     .speedy-con :first-child {
+        text-align: center;
         font-weight: bolder;
         font-size: x-large;
         margin-bottom: 1em;
@@ -1039,8 +1062,9 @@ em {
     }
     .share-con {
         display: none;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 4em;
+        text-align: center;
     }
     .share-con button {
         background-color: rgb(87, 118, 204);
@@ -1054,13 +1078,15 @@ em {
     }
     .share-span {
         margin-top: 4rem;
-        margin-left: 9.4em;
+        margin: 4rem auto;
     }
     .share-con img {
-        margin-left: 6em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw
     }
     .share-con p~p {
-        width: 26em;
+        width: 100vw;
         color: lightslategrey;
         line-height: 1.5em;
     }
@@ -1072,13 +1098,14 @@ em {
     }
     #blue2 {
         position: absolute;
-        left: 1rem;
-        top: 74rem;
+        left: 1%;
+        top: 53%;
         background-color: rgb(87, 118, 204);
-        height: 21rem;
-        width: 36rem;
+        height: 17%;
+        width: 80%;
         z-index: -1;
         border-bottom-right-radius: 10rem;
         border-top-right-radius: 20rem;
     }
+    /*----------------------------section 3-------------*/
 }
