@@ -784,4 +784,8 @@ em {
     }
 }
 
-@media only screen and (min-width:500px) {}
+@media only screen and (min-width:500px) {
+    #nav-bar a {
+        visibility: hidden;
+    }
+}
