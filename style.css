@@ -834,6 +834,7 @@ em {
     div {
         display: flex;
         flex-direction: row;
+        text-align: center;
     }
     .p1 {
         text-align: center;
