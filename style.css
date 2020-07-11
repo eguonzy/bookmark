@@ -183,19 +183,20 @@ a:hover {
     margin-top: 4em;
 }
 
-.line1 {
+.line1,
+.line2 {
+    border-bottom: solid rgb(233, 227, 227);
     padding-left: 3em;
     padding-right: 3em;
-    border-bottom: solid rgb(241, 94, 94);
     border-width: thick;
     padding-bottom: 2em;
     font-size: small;
 }
 
-.line2 {
+.line12 {
+    border-bottom: solid red;
     padding-left: 3em;
     padding-right: 3em;
-    border-bottom: solid rgb(233, 227, 227);
     border-width: thick;
     padding-bottom: 2em;
     font-size: small;
@@ -211,9 +212,38 @@ a:hover {
     font-size: small;
 }
 
-.line1:hover,
-.line2:hover,
-.line3:hover {
+.dark1 {
+    padding-left: 3em;
+    padding-right: 3em;
+    border-bottom: solid rgb(241, 94, 94);
+    border-width: thick;
+    padding-bottom: 2em;
+    font-size: small;
+    color: #242a45;
+}
+
+.dark2 {
+    color: #242a45;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-width: thick;
+    padding-bottom: 2em;
+    font-size: small;
+    border-bottom: solid red;
+}
+
+.dark3 {
+    color: #242a45;
+    padding-left: 3em;
+    margin-right: 3.5em;
+    border-width: thick;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    font-size: small;
+    border-bottom: solid red;
+}
+
+.hover:hover {
     color: rgb(241, 94, 94);
     font-size: small;
 }
@@ -753,3 +783,5 @@ em {
         overflow: hidden;
     }
 }
+
+@media only screen and (min-width:500px) {}

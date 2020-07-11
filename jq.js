@@ -1,6 +1,5 @@
 $(function() {
     $(".span01").click(function() {
-        var bt = $(this).find("p");
         var answer = $(this).find(".up");
         var img = $(this).find("img");
 
