@@ -840,8 +840,11 @@ em {
         margin-right: auto;
         justify-content: center;
     }
+    .blue-problem {
+        text-align: center;
+    }
     .section1 img {
-        width: 100vw;
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
         padding: 0
@@ -850,6 +853,8 @@ em {
         display: flex;
         flex-direction: row;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .p1 {
         text-align: center;
@@ -1023,6 +1028,8 @@ em {
         width: 80vw
     }
     .simple-con p~p {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         width: 90%;
         color: lightslategrey;
@@ -1063,6 +1070,8 @@ em {
         width: 80vw;
     }
     .speedy-con p~p {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         width: 90%;
         color: lightslategrey;
@@ -1101,6 +1110,8 @@ em {
         width: 80vw
     }
     .share-con p~p {
+        margin-left: auto;
+        margin-right: auto;
         width: 90%;
         color: lightslategrey;
         line-height: 1.5em;
@@ -1114,12 +1125,12 @@ em {
     #blue2 {
         position: absolute;
         left: 1%;
-        top: 53%;
+        top: 26.9%;
         background-color: rgb(87, 118, 204);
-        height: 17%;
-        width: 80%;
+        height: 4.1%;
+        width: 75%;
         z-index: -1;
-        border-bottom-right-radius: 10rem;
+        border-bottom-right-radius: 30REM;
         border-top-right-radius: 20rem;
     }
     /*----------------------------section 3-------------*/
@@ -1127,6 +1138,8 @@ em {
         margin-top: 10%;
     }
     .section3 p {
+        margin-left: auto;
+        margin-right: auto;
         width: 90%
     }
     .browsers {
