@@ -547,6 +547,13 @@ a:hover {
     color: lightslategrey;
     font-size: 0.8em;
     margin-bottom: 0.6em;
+    max-width: 500px;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+
+#here {
+    margin-bottom: 3%;
 }
 
 .span1 {
@@ -584,6 +591,12 @@ a:hover {
     display: none;
     font-size: 0.7em;
     line-height: 1.7em;
+}
+
+#nob,
+#nob1,
+#nob2 {
+    border-top: none;
 }
 
 .span01 {
@@ -849,7 +862,7 @@ em {
         margin-top: 1.7rem;
         color: lightslategrey;
         line-height: 1.7rem;
-        width: auto;
+        width: 90%;
         font-weight: lighter;
     }
     .section1 button {
@@ -879,7 +892,7 @@ em {
         color: lightslategrey;
         margin-top: 0.6em;
         font-size: 1em;
-        max-width: 100%;
+        max-width: 90%;
     }
     .line-con {
         display: flex;
@@ -1111,4 +1124,251 @@ em {
         border-top-right-radius: 20rem;
     }
     /*----------------------------section 3-------------*/
+    .section3 {
+        margin-top: 10%;
+    }
+    .browsers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chrome {
+        box-shadow: 1px 1px 6px 1px rgb(226, 226, 226);
+        padding-top: 1.5em;
+        margin-top: 15vh;
+        height: 70vh;
+        width: 85%;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fox {
+        border-radius: 5px;
+        padding-top: 1.5em;
+        box-shadow: 1px 1px 3px 1px rgb(226, 226, 226);
+        margin-top: 10vh;
+        text-align: center;
+        height: 70vh;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .opera {
+        border-radius: 5px;
+        margin-bottom: 1.4rem;
+        padding-top: 1.5em;
+        box-shadow: 1px 1px 3px 1px rgb(226, 226, 226);
+        margin-top: 10vh;
+        text-align: center;
+        height: rem;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .browsers {
+        height: 100%
+    }
+    /*----------------------------section4----------*/
+    .section4 {
+        text-align: center;
+        margin: 2em auto
+    }
+    #frequent {
+        font-weight: bolder;
+        font-size: x-large;
+        color: rgba(2, 2, 22, 0.787);
+        margin-bottom: 1.4rem;
+    }
+    .section4 p {
+        color: lightslategrey;
+        font-size: 0.8em;
+        margin-bottom: 0.6em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .span1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .span1 img {
+        align-self: center;
+    }
+    #lastp {
+        margin-bottom: 4em;
+    }
+    .span1 p {
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        font-weight: bold;
+        color: rgba(2, 2, 22, 0.787);
+        font-size: 0.8em;
+    }
+    .span01 {
+        display: inline-block;
+        border-top: solid silver;
+        border-bottom: solid silver;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        border-top-width: thin;
+        border-bottom-width: thin;
+    }
+    /*-----------------------section5------------------------------*/
+    .blue-con {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(87, 118, 204);
+    }
+    .section5 {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .words :first-child {
+        margin-top: 3.5%;
+        font-size: x-small;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        margin-bottom: 2.7%;
+    }
+    .words :first-child~p {
+        font-size: large;
+        color: white;
+        font-weight: bold;
+        line-height: 1.6em;
+    }
+    .words {
+        margin-bottom: 2em;
+    }
+    .neutral {
+        width: 80%;
+        height: 3.5em;
+        border-width: thin;
+        border-radius: 7px;
+        margin: 0 auto;
+    }
+    .errorinp {
+        border-width: medium;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-color: rgb(241, 94, 94);
+        border-style: solid;
+        width: 80%;
+        height: 3.5em;
+    }
+    .contact-con {
+        margin-bottom: 5%;
+    }
+    input::placeholder {
+        padding-left: 8%;
+    }
+    #sub {
+        margin: 1em auto;
+        height: 3.6em;
+        border-width: medium;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 7px;
+        border-color: rgb(246, 136, 136);
+        background-color: rgb(241, 94, 94);
+        color: white;
+        width: 80%;
+    }
+    #sub:hover {
+        color: rgb(241, 94, 94);
+        background-color: white;
+        border-color: rgb(241, 94, 94);
+        border-width: medium;
+    }
+    .black-con {
+        margin: 0 auto;
+        width: 100%;
+        color: white;
+        background-color: #242a45;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .black-con a {
+        color: #fff;
+        font-weight: lighter;
+        font-size: 0.5em;
+        margin: 1em auto;
+        text-decoration: none;
+    }
+    .black-con svg {
+        background-color: #242a45;
+        margin-left: auto;
+        align-self: center;
+        margin-right: auto;
+        margin: 1em auto;
+    }
+    .book {
+        fill: #ffffff;
+    }
+    .logos {
+        display: flex;
+        flex-direction: row;
+    }
+    .cont {
+        margin-right: auto
+    }
+    .a2 {
+        margin-left: 0;
+    }
+    .logos a {
+        margin-top: auto;
+    }
+    .a1 {
+        margin-right: 0em;
+        background-color: blueviolet;
+    }
+    .svg:hover {
+        fill: rgb(241, 94, 94);
+    }
+    .black-con a:hover {
+        color: rgb(241, 94, 94);
+    }
+    .error {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    em {
+        display: none;
+        background-color: rgb(241, 94, 94);
+        font-size: x-small;
+        color: white;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        padding: 4px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .inpp {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .inpp img {
+        display: none;
+        position: absolute;
+        right: 18px;
+        top: 15px;
+    }
 }
