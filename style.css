@@ -874,7 +874,6 @@ em {
     /*----------------------------section2---------------*/
     .section2 {
         margin: 10% auto;
-        position: relative;
     }
     .span1-section2 {
         text-align: center;
@@ -1025,7 +1024,7 @@ em {
     }
     .simple-con p~p {
         text-align: center;
-        width: 100vw;
+        width: 90%;
         color: lightslategrey;
         line-height: 1.5em;
     }
@@ -1065,7 +1064,7 @@ em {
     }
     .speedy-con p~p {
         text-align: center;
-        width: 100vw;
+        width: 90%;
         color: lightslategrey;
         line-height: 1.5em;
     }
@@ -1102,7 +1101,7 @@ em {
         width: 80vw
     }
     .share-con p~p {
-        width: 100vw;
+        width: 90%;
         color: lightslategrey;
         line-height: 1.5em;
     }
@@ -1126,6 +1125,9 @@ em {
     /*----------------------------section 3-------------*/
     .section3 {
         margin-top: 10%;
+    }
+    .section3 p {
+        width: 90%
     }
     .browsers {
         display: flex;
