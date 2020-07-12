@@ -11,6 +11,7 @@ button {
 }
 
 body {
+    position: relative;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -385,10 +386,10 @@ a:hover {
 #blue2 {
     position: absolute;
     left: 1rem;
-    top: 74rem;
+    top: 70rem;
     background-color: rgb(87, 118, 204);
     height: 21rem;
-    width: 36rem;
+    width: 35rem;
     z-index: -1;
     border-bottom-right-radius: 10rem;
     border-top-right-radius: 20rem;
