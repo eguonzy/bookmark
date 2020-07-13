@@ -1152,9 +1152,9 @@ em {
     .chrome {
         box-shadow: 1px 1px 6px 1px rgb(226, 226, 226);
         padding-top: 1.5em;
-        margin-top: 15vh;
+        margin-top: 10vh;
         height: 20rem;
-        width: 82%;
+        width: 75%;
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
@@ -1166,7 +1166,7 @@ em {
         margin-top: 10vh;
         text-align: center;
         height: 20rem;
-        width: 82%;
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1178,7 +1178,7 @@ em {
         margin-top: 10vh;
         text-align: center;
         height: 20rem;
-        width: 82%;
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
