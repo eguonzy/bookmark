@@ -1318,13 +1318,14 @@ em {
         padding-left: 8%;
     }
     #sub {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
         margin: 1em auto;
         height: 3.6em;
-        border-width: medium;
+        border-width: thin;
         padding-left: 2%;
         padding-right: 2%;
         border-radius: 7px;
-        border-color: rgb(246, 136, 136);
         background-color: rgb(241, 94, 94);
         color: white;
         width: 80%;
@@ -1431,6 +1432,6 @@ em {
     button {
         -webkit-appearance: none;
         -webkit-border-radius: 0;
-        border-radius: inherit;
+        border-radius: none;
     }
 }
