@@ -856,6 +856,7 @@ em {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
     }
     .p1 {
         text-align: center;
@@ -918,7 +919,7 @@ em {
         display: block;
         align-self: center;
         border: red solid;
-        width: 32%;
+        width: 30%;
         margin: 0px auto;
         border-width: thin
     }
