@@ -578,6 +578,7 @@ a:hover {
     font-weight: bold;
     color: rgba(2, 2, 22, 0.787);
     font-size: 0.8em;
+    text-align: left;
 }
 
 .span1 p:hover {
@@ -822,11 +823,11 @@ em {
     }
     #blue {
         position: absolute;
-        left: 16vw;
-        top: 50%;
+        left: 22vw;
+        top: 30%;
         background-color: rgb(87, 118, 204);
-        height: 50%;
-        width: 78%;
+        height: 65%;
+        width: 75%;
         z-index: -1;
         border-bottom-left-radius: 38%;
         overflow: hidden;
@@ -858,7 +859,7 @@ em {
     }
     .p1 {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: bolder;
         color: rgb(60, 67, 75);
     }
@@ -1125,7 +1126,7 @@ em {
     #blue2 {
         position: absolute;
         left: 1%;
-        top: 26.9%;
+        top: 74.5rem;
         background-color: rgb(87, 118, 204);
         height: 4.1%;
         width: 75%;
