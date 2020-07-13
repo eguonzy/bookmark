@@ -918,7 +918,7 @@ em {
         display: block;
         align-self: center;
         border: red solid;
-        width: 35%;
+        width: 32%;
         margin: 0px auto;
         border-width: thin
     }
@@ -926,7 +926,7 @@ em {
         display: none;
         align-self: center;
         border: red solid;
-        width: 26%;
+        width: 24%;
         margin: 0px auto;
         border-width: thin
     }
@@ -934,7 +934,7 @@ em {
         display: none;
         align-self: center;
         border: red solid;
-        width: 21%;
+        width: 19%;
         margin: 0px auto;
         border-width: thin
     }
@@ -1152,8 +1152,8 @@ em {
         box-shadow: 1px 1px 6px 1px rgb(226, 226, 226);
         padding-top: 1.5em;
         margin-top: 15vh;
-        height: 70vh;
-        width: 85%;
+        height: 20rem;
+        width: 82%;
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
@@ -1164,8 +1164,8 @@ em {
         box-shadow: 1px 1px 3px 1px rgb(226, 226, 226);
         margin-top: 10vh;
         text-align: center;
-        height: 70vh;
-        width: 85%;
+        height: 20rem;
+        width: 82%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1176,10 +1176,40 @@ em {
         box-shadow: 1px 1px 3px 1px rgb(226, 226, 226);
         margin-top: 10vh;
         text-align: center;
-        height: rem;
-        width: 85%;
+        height: 20rem;
+        width: 82%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .opera :first-child+p+p {
+        font-size: small;
+        color: lightslategrey;
+        margin-top: 0.7em;
+        margin-bottom: 3em;
+    }
+    .opera :first-child+p {
+        margin-top: 1em;
+        font-size: medium;
+    }
+    .fox :first-child+p+p {
+        font-size: small;
+        color: lightslategrey;
+        margin-top: 0.7em;
+        margin-bottom: 3em;
+    }
+    .fox :first-child+p {
+        margin-top: 1em;
+        font-size: medium;
+    }
+    .chrome :first-child+p+p {
+        font-size: small;
+        color: lightslategrey;
+        margin-top: 0.7em;
+        margin-bottom: 3em;
+    }
+    .chrome :first-child+p {
+        margin-top: 1em;
+        font-size: medium;
     }
     .browsers {
         height: 100%
@@ -1345,7 +1375,6 @@ em {
     }
     .a1 {
         margin-right: 0em;
-        background-color: blueviolet;
     }
     .svg:hover {
         fill: rgb(241, 94, 94);
