@@ -1417,4 +1417,20 @@ em {
         right: 18px;
         top: 15px;
     }
+    .hamburg {
+        display: none;
+        position: fixed;
+        background-color: #242A45;
+        margin-top: 0em;
+        z-index: 2;
+        width: 100%;
+    }
+    #ham {
+        margin-right: 2%;
+    }
+    button {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: inherit;
+    }
 }
