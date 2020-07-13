@@ -93,3 +93,23 @@ sub.addEventListener("click", (e) => {
         err.style.display = "none";
     }
 });
+let hamburg = document.querySelector(".hamburg");
+let logo = document.querySelector(".logo");
+let ham = document.querySelector("#ham");
+let close = document.querySelector("#close");
+ham.onclick = () => {
+    logo.setAttribute("class", "logo animated fadeOutRight");
+    ham.setAttribute("class", "animated fadeOutRight");
+
+    hamburg.setAttribute("class", "hamburg animated slideInRight");
+    hamburg.style.display = "flex";
+};
+close.addEventListener("click", () => {
+    logo.setAttribute("class", "logo animated fadeInRight");
+    ham.setAttribute("class", "animated fadeInRight");
+
+    hamburg.setAttribute("class", "hamburg animated fadeOutRight");
+});
+log.onclick = () => {
+    window.location.reload();
+};
